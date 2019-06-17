@@ -12,7 +12,8 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : WorldAnimals                             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Learn animal sounds from languages all over the world.
+app_headline                              : Have you ever wondered...
+app_description                           : What animals sound like in different languages?
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -51,22 +52,14 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#ffffff"
-topbar_transparency                       : 1.0
-topbar_title_color                        : "#1d63ea"
-
-cover_image                               : assets/background.png #assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.4 
-
-device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
-
-body_background_color                     : "ffffff"
+header_title_color                        : "#ffffff"
+body_background_color                     : "#ffffff"
 
 link_color                                : "#1d63ea"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
+app_headline_color                     : "#ffffff"
 app_description_color                     : "#ffffff"
 
 feature_title_color                       : "#000000"

@@ -1,23 +1,13 @@
 .imageWrapper {					// Sets the background image in the header area
 	height: 474px;
-	background: 
-		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
-		rgba($image-overlay-color, $image-overlay-transparency)
-		   ),
-		
-		url($header-image);
-
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: radial-gradient(circle at 80% -20%, #2AF598, #08AEEA 80%, #08AEEA 95%);
 	background-position: top;
 	border-radius: 0px;
-
 }
 
 .headerBackground {
 	height: 115px;
-	background-color: rgba($header-color, $header-transparency);
+	background-color: 'transparent';
 }
 
 .container {					// Set up the container for the site content
@@ -27,11 +17,11 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 576px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"p p p p p i i i i i i i"
+		"p p p i i i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -39,7 +29,7 @@
 @media only screen and (max-width: 1070px) {
 
 	.container {					// Set up the container for the site content
-		grid-template-rows: 115px 811px auto auto;
+		grid-template-rows: 115px 526px auto auto;
 	}
 }
 
@@ -176,6 +166,18 @@ nav > ul li a:active {
 	margin-top: 13px;
 }
 
+.appHeadlineContainer {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+}
+
+.appHeadline {
+	color: $app-headline-color;
+}
+
 @media only screen and (max-width: 768px) {
 
 	.appNamePriceContainer {
@@ -185,7 +187,19 @@ nav > ul li a:active {
 		justify-content: center;
 	}
 
+	.appHeadlineContainer {
+		width: 100%;
+		margin-left: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.appName {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.appHeadline {
 		margin-top: 30px;
 		text-align: center;
 	}
@@ -202,7 +216,7 @@ nav > ul li a:active {
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
-	margin-top: 45px;
+	margin-top: 20px;
 	flex: 0 1 auto;
 	line-height: 1.5;
 }
@@ -266,23 +280,23 @@ nav > ul li a:active {
 
 .iphonePreview {
 	grid-area: p;
-	background-image: url($device-color);
-	background-size: 400px auto;
+	background-image: url($device-frame);
+	background-size: 230px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
 }
 
 .iphoneScreen {
-	width: 349px;
+	width: 200px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
+	margin-left: 16px;
+	margin-top: 14px;
 }
 
 .videoContainer {
-	width: 349px;
-	height: 755px;
+	width: 200px;
+	height: 433px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
@@ -290,32 +304,32 @@ nav > ul li a:active {
 }
 
 .videoContainer > video {
-	width: 349px;
-	height: 755px;
+	width: 200px;
+	height: 433px;
 }
 
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
-		background-size: 370px auto;
+		background-size: 210px auto;
 	}
 
 	.iphoneScreen {
-		width: 322px;
-		margin-left: 24px;
-		margin-top: 22px;
+		width: 185px;
+		margin-left: 13px;
+		margin-top: 10px;
 	}
 
 	.videoContainer {
-		width: 322px;
-		height: 698px;
+		width: 185px;
+		height: 400px;
 		margin-left: 24px;
 		margin-top: 22px;
 	}
 	
 	.videoContainer > video {
-		width: 322px;
-		height: 698px;
+		width: 185px;
+		height: 400px;
 	}
 	
 } 
@@ -365,7 +379,7 @@ nav > ul li a:active {
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
-	margin-top: 93px;
+	margin-top: 53px;
 }
 
 .feature {

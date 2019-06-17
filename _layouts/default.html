@@ -22,12 +22,16 @@
                         </div>  
                         
                         <img class="iphoneScreen hidden" src="" alt="">
-
                         {% include screencontent.html %}
 
                     </div>
                     <div class="appInfo">
-                        <div class="appIconShadow">
+                        <div class="appHeadlineContainer">
+                            <h1 class="appHeadline">
+                                {{ site.app_headline }}
+                            </h1>
+                        </div>
+                        <!-- <div class="appIconShadow">
                             <svg width="0" height="0">
                                 <defs>
                                     <clipPath id="shape120">
@@ -36,17 +40,17 @@
                                 </defs>
                             </svg>
                             <img class="appIconLarge" src="{{ site.app_icon }}">
-                        </div>
-                        <div class="appNamePriceContainer">
+                        </div> -->
+                        <!-- <div class="appNamePriceContainer">
                             <h1 class="appName">
                                 {{ site.app_name }}
                             </h1>
                             <h2 class="appPrice">
                                 {{ site.app_price }}
                             </h2>
-                        </div>
+                        </div> -->
                         <div class="appDescriptionContainer">
-                            <p class ="appDescription">
+                            <p class="appDescription">
                                 {{ site.app_description }}
                             </p>
                         </div>
