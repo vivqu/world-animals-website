@@ -2,6 +2,9 @@ const attachListeners = () => {
     const headImages = document.getElementsByClassName('illustrationImage');
     for (var i = 0; i < headImages.length; i++) {
         let image = headImages[i];
+        if (i == 0) {
+            image.className += " illustrationImageSelected";
+        }
         image.addEventListener('click', changeSelection, false);
     }
 }
@@ -15,31 +18,27 @@ const getFileNameForImage = (image) => {
         return "";
     }
 
-    let finalPath = pathComponents.slice(-2);
-    let isSelected = finalPath[0] != 'illustrations';
-    let animalPath = finalPath[1];
-    return { animalPath, isSelected };
+    return pathComponents.slice(-1)[0];
 }
 
 const changeSelection = (e) => {
     let srcImage = e.srcElement;
-    let { animalPath, isSelected } = getFileNameForImage(srcImage);
-    console.log(isSelected);
-    console.log(animalPath);
-    const headImages = document.getElementsByClassName('illustrationImage');
+    let animalPath = getFileNameForImage(srcImage);
+    let isSelected = srcImage.className.includes("illustrationImageSelected");
     if (animalPath == null || animalPath.length == 0) {
         return;
     }
+    const headImages = document.getElementsByClassName('illustrationImage');
     var updatedAnimal = false;
     for (var i = 0; i < headImages.length; i++) {
         let image = headImages[i];
-        let results = getFileNameForImage(image);
-        let currentAnimalPath = results.animalPath;
-        if (currentAnimalPath == animalPath && results.isSelected == false) {
+        let currentAnimalPath = getFileNameForImage(image);
+        let currentIsSelected = image.className.includes("illustrationImageSelected");
+        if (currentAnimalPath == animalPath && currentIsSelected == false) {
             updatedAnimal = true;
-            image.src = 'assets/selected-illustrations/' + currentAnimalPath;
-        } else if (isSelected == false && results.isSelected) {
-            image.src = 'assets/illustrations/' + currentAnimalPath;
+            image.className += ' illustrationImageSelected';
+        } else if (currentAnimalPath != animalPath && currentIsSelected) {
+            image.className = image.className.replace(' illustrationImageSelected', '')
         }
     }
     let animalName = animalPath.split('-')[0];

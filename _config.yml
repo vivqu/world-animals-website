@@ -50,7 +50,7 @@ features                                  :
 
 # Image List
 illustrations                             :
-  - icon                                  : assets/selected-illustrations/lion-head.png
+  - icon                                  : assets/illustrations/lion-head.png
   - icon                                  : assets/illustrations/cow-head.png
   - icon                                  : assets/illustrations/sheep-head.png
   - icon                                  : assets/illustrations/pig-head.png

@@ -538,6 +538,11 @@ nav > ul li a:active {
 	height: 100px;
 }
 
+.illustrationImageSelected {
+	border: 3px solid #2577DC;
+	border-radius: 50px;
+}
+
 .illustrationMainContainer {
 	grid-area: s;
 	display: flex;
