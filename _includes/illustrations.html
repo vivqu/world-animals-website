@@ -1,0 +1,19 @@
+<div class="illustrations">
+    <div class="container container-illustrations">
+        <div class="illustrationContainer">
+            {% for illustration in site.illustrations %}
+            {% if illustration.icon %}
+            <img class="illustrationImage" src="{{ illustration.icon }}" />
+            {% endif %}
+
+            {% endfor %}
+        </div>
+        <div class="illustrationText">
+            <h2>Enjoy custom illustrations</h2>
+            <p class="illustrationDescription">Includes fifteen different animals wearing classic hats of the various countries. Each animal and hat is lovingly drawn by hand.</p>
+        </div>
+        <div class="illustrationMainContainer">
+            <img class="illustrationMainImage" src="assets/illustrations/lion.png"/>
+        </div>
+    </div>
+</div>

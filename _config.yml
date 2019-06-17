@@ -35,11 +35,11 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 11 languages
+  - title                                 : Supports 11 languages
     description                           : Customize which languages are used for the animal questions.
     fontawesome_icon_name                 : language
 
-  - title                                 : Spoken answers
+  - title                                 : Hear spoken answers
     description                           : Learn how to pronounce sounds with built-in recordings.
     fontawesome_icon_name                 : volume-up
 
@@ -48,6 +48,13 @@ features                                  :
     fontawesome_icon_name                 : baby
 
 
+# Image List
+illustrations                             :
+  - icon                                  : assets/illustrations/lion-head.png
+  - icon                                  : assets/illustrations/cow-head.png
+  - icon                                  : assets/illustrations/sheep-head.png
+  - icon                                  : assets/illustrations/pig-head.png
+  - icon                                  : assets/illustrations/duck-head.png
 
 
 

@@ -23,6 +23,20 @@
 		"h h h h h h h h h h h h"
 		"p p p i i i i i i i i i"
 		"p p p c c c c c c c c c"
+}
+
+.container-illustrations {
+	margin-top: 50px;
+	grid-template-rows: 115px auto auto auto;
+	grid-template-areas: 
+		"d d d d d d d d d d d d"
+		"r r r r r r r r r r r r"
+		"s s s s s s s s s s s s"
+}
+
+.container-bottom {
+	margin-top: 50px;
+	grid-template-areas: 
 		"f f f f f f f f f f f f";
 }
 
@@ -34,7 +48,20 @@
 		"h h h h h h h h h h h h"
 		"p p p i i i i i i i i i"
 		"c c c c c c c c c c c c"
-		"f f f f f f f f f f f f";
+	}
+
+	.container-illustrations {
+		grid-template-rows: 115px auto auto auto;
+		grid-template-areas: 
+			"d d d d d d d d d d d d"
+			"r r r r r r r r r r r r"
+			"s s s s s s s s s s s s"
+	}
+
+	.container-bottom {
+		margin-top: 50px;
+		grid-template-areas: 
+			"f f f f f f f f f f f f";
 	}
 }
 
@@ -53,6 +80,18 @@
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
+	}
+
+	.container-illustrations {
+		grid-template-areas: 
+			"d d d d d d d d d d d d"
+			"r r r r r r r r r r r r"
+			"s s s s s s s s s s s s"
+	}
+
+	.container-bottom {
+		margin-top: 50px;
+		grid-template-areas: 
 			"f f f f f f f f f f f f";
 	}
 }
@@ -461,7 +500,56 @@ nav > ul li a:active {
 	}
 } 
 
+// Illustrations
+.illustrations {
+	margin-top: 53px;
+	background: radial-gradient(circle at 0% 120%, #FAD961, #FF5ACD 80%, #FF5ACD 95%);
+	width: 100%;
+}
 
+.illustrationContainer {
+	margin-top: 53px;
+	grid-area: d;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.illustrationText {
+	grid-area: r;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+	align-content: center;
+	justify-content: center;
+}
+
+.illustrationDescription {
+	padding-top: 10px;
+	padding-left: 20%;
+	padding-right: 20%;
+	line-height: 1.5;
+}
+
+.illustrationImage {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.illustrationMainContainer {
+	grid-area: s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 53px;
+}
+
+.illustrationMainImage {
+	height: 250px;
+}
 
 // Footer
 
