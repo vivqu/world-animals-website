@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 474px;
+	height: 494px;
 	background: radial-gradient(circle at 80% -20%, #2AF598, #08AEEA 80%, #08AEEA 95%);
 	background-position: top;
 	border-radius: 0px;
@@ -17,12 +17,12 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 576px auto auto;
+	grid-template-rows: 115px 376px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p i i i i i i i i i"
-		"c c c c c c c c c c c c"
+		"p p p c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
 
@@ -30,10 +30,19 @@
 
 	.container {					// Set up the container for the site content
 		grid-template-rows: 115px 526px auto auto;
+		grid-template-areas: 
+		"h h h h h h h h h h h h"
+		"p p p i i i i i i i i i"
+		"c c c c c c c c c c c c"
+		"f f f f f f f f f f f f";
 	}
 }
 
 @media only screen and (max-width: 992px) {
+
+	.imageWrapper {		
+		height: 695px;
+	}
 
 	.container {
 		grid-column-gap: 0px;
@@ -147,15 +156,6 @@ nav > ul li a:active {
 	clip-path: url(#shape120);
 }
 
-.appNamePriceContainer {
-	display: flex;
-	flex: 0 1 auto;
-	flex-direction: column;
-	align-items: start;
-	justify-content: center;
-	margin-left: 30px;
-}
-
 .appName {
 	color: $app-title-color;
 }
@@ -179,13 +179,6 @@ nav > ul li a:active {
 }
 
 @media only screen and (max-width: 768px) {
-
-	.appNamePriceContainer {
-		width: 100%;
-		margin-left: 0px;
-		align-items: center;
-		justify-content: center;
-	}
 
 	.appHeadlineContainer {
 		width: 100%;
@@ -436,8 +429,10 @@ nav > ul li a:active {
 
 	.features {
 		flex-grow: 1;
-		flex-direction: row;
-		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		flex-wrap: nowrap;
 		margin-top: 11px;
 	}
 
@@ -464,7 +459,6 @@ nav > ul li a:active {
 	.feature:nth-child(3n+1) {
 		padding-left: 15px;
 	}
-	
 } 
 
 

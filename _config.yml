@@ -43,9 +43,9 @@ features                                  :
     description                           : Learn how to pronounce sounds with built-in recordings.
     fontawesome_icon_name                 : volume-up
 
-  - title                                 : Custom illustrations
-    description                           : Each animal and hat is lovingly drawn by hand.
-    fontawesome_icon_name                 : pencil-alt
+  - title                                 : Safe for kids
+    description                           : Built with privacy in mind. No data is ever collected by the app.
+    fontawesome_icon_name                 : baby
 
 
 
