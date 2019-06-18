@@ -559,8 +559,8 @@ nav > ul li a:active {
 	.illustrationImage {
 		margin-left: 5px;
 		margin-right: 5px;
-		width: 60px;
-		height: 60px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.illustrationDescription {
@@ -742,11 +742,18 @@ nav > ul li a:active {
 
 .flag {
 	padding: 3px;
+	width: 82;
+	height: auto;
 }
 
 .flagSelected {
 	border: 3px solid #2577DC;
 	padding: 0px;
+}
+
+.arrowSize {
+	width: 82px;
+	height: auto;
 }
 
 .arrowGerman {
@@ -765,8 +772,8 @@ nav > ul li a:active {
 
 	.illustrationMainContainer {
 		margin-top: 15px;
-		justify-content: flex-start;
-		padding-bottom: 83px;
+		justify-content: center;
+		padding-bottom: 0px;
 	}
 
 	.illustrationMainImage {
@@ -776,18 +783,25 @@ nav > ul li a:active {
 	.illustrationMainWrapper {
 		width: 159px;	
 		height: 150px;
-		margin-right: 0px;
+		margin-left: 0px;
+		margin-right: 10px;
 		position: relative;
 	}
 
 	.illustrationCountries {
-		height: 167px;
+		height: 217px;
+		width: 140px;
 		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	.countryArrow {
-		width: 49px;
+		width: 52px;
 		padding-bottom: 20px;
+	}
+
+	.arrowSize {
+		width: 62px;
 	}
 
 	.lion {
@@ -909,6 +923,37 @@ nav > ul li a:active {
 		width: auto;
 		top: -22px;
 		left: 68px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.illustrationCountries {
+		height: 217px;
+		width: 130px;
+		padding-left: 0px;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	.countryArrow {
+		width: 42px;
+	}
+
+	.arrowSize {
+		width: 42px;
+	}
+
+	.arrowChinese {
+		margin-top: 8px;
+	}
+	
+	.arrowFrench {
+		margin-top: 8px;
+	}
+	
+	.flag {
+		width: 52px;
+		height: auto;
 	}
 }
 
