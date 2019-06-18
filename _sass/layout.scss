@@ -26,12 +26,13 @@
 }
 
 .container-illustrations {
-	margin-top: 50px;
-	grid-template-rows: 115px auto auto auto;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
 	grid-template-areas: 
 		"d d d d d d d d d d d d"
 		"r r r r r r r r r r r r"
 		"s s s s s s s s s s s s"
+		"q q q q q q q q q q q q"
 }
 
 .container-bottom {
@@ -51,11 +52,13 @@
 	}
 
 	.container-illustrations {
-		grid-template-rows: 115px auto auto auto;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
 		grid-template-areas: 
 			"d d d d d d d d d d d d"
 			"r r r r r r r r r r r r"
 			"s s s s s s s s s s s s"
+			"q q q q q q q q q q q q"
 	}
 
 	.container-bottom {
@@ -83,10 +86,12 @@
 	}
 
 	.container-illustrations {
+		grid-template-rows: auto;
 		grid-template-areas: 
 			"d d d d d d d d d d d d"
 			"r r r r r r r r r r r r"
 			"s s s s s s s s s s s s"
+			"q q q q q q q q q q q q"
 	}
 
 	.container-bottom {
@@ -504,7 +509,6 @@ nav > ul li a:active {
 .illustrations {
 	margin-top: 53px;
 	background: radial-gradient(circle at 0% 120%, #FAD961, #FF5ACD 80%, #FF5ACD 95%);
-	width: 100%;
 }
 
 .illustrationContainer {
@@ -519,15 +523,20 @@ nav > ul li a:active {
 	grid-area: r;
 	color: white;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 50px;
 	align-content: center;
 	justify-content: center;
 }
 
+.illustrationPrompt {
+	grid-area: q;
+	padding-top: 0px;
+}
+
 .illustrationDescription {
 	padding-top: 10px;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 	line-height: 1.5;
 }
 
@@ -543,6 +552,153 @@ nav > ul li a:active {
 	border-radius: 50px;
 }
 
+@media only screen and (max-width: 1070px) {
+}
+
+@media only screen and (max-width: 992px) {
+	.illustrationImage {
+		margin-left: 5px;
+		margin-right: 5px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.illustrationDescription {
+		padding-left: 5%;
+		padding-right: 5%;
+		line-height: 1.5;
+	}
+}
+
+.illustrationHat {
+	z-index: 2;
+	position: absolute;
+}
+
+.lion-german-hat {
+	top: -13px;
+	left: 110px;
+	height: 43px;
+	width: auto;
+}
+
+.lion-french-hat {
+	height: 63px;
+	width: auto;
+	top: -16px;
+	left: 135px;
+}
+
+.lion-chinese-hat {
+	height: 114px;
+	width: auto;
+	top: -35px;
+	left: 77px;
+}
+
+.cow-german-hat {
+	top: -17px;
+	left: 125px;
+	height: 84px;
+	width: auto;
+}
+
+.cow-french-hat {
+	height: 65px;
+	width: auto;
+	top: -16px;
+	left: 117px;
+}
+
+.cow-chinese-hat {
+	height: 140px;
+	width: auto;
+	top: -36px;
+	left: 108px;
+}
+
+.sheep-german-hat {
+	height: 56px;
+	width: auto;
+	top: -18px;
+	left: 30px;
+}
+
+.sheep-french-hat {
+	height: 61px;
+	width: auto;
+	top: -30px;
+	left: 48px;
+}
+
+.sheep-chinese-hat {
+	height: 151px;
+	width: auto;
+	top: -31px;
+	left: 9px;
+}
+
+.pig-german-hat {
+	height: 51px;
+	width: auto;
+	top: -20px;
+	left: 110px;
+}
+
+.pig-french-hat {
+	height: 66px;
+	width: auto;
+	top: -22px;
+	left: 69px;
+}
+
+.pig-chinese-hat {
+	height: 168px;
+	width: auto;
+	top: -59px;
+	left: 75px;
+}
+
+.duck-german-hat {
+	height: 43px;
+	width: auto;
+	top: -24px;
+	left: 113px;
+}
+
+.duck-french-hat {
+	height: 64px;
+	width: auto;
+	top: -15px;
+	left: 140px;
+}
+
+.duck-chinese-hat {
+	height: 70px;
+	width: auto;
+	top: -32px;
+	left: 113px;
+}
+
+.lion {
+	padding-left: 60px;
+}
+
+.cow {
+	padding-left: 30px;
+}
+
+.sheep {
+}
+
+.pig {
+	padding-left: 50px;
+}
+
+.duck {
+	padding-left: 90px;
+}
+
 .illustrationMainContainer {
 	grid-area: s;
 	display: flex;
@@ -550,10 +706,210 @@ nav > ul li a:active {
 	justify-content: center;
 	margin-top: 60px;
 	margin-bottom: 53px;
+	padding-bottom: 53px;
+	position: relative;
 }
 
 .illustrationMainImage {
+	z-index: 1;
 	height: 250px;
+	width: auto;
+}
+
+.illustrationMainWrapper {
+	margin-top: 29px;
+	width: 298px;	
+	height: 250px;
+	margin-right: 20px;
+	position: relative;
+}
+
+.illustrationCountries {
+	height: 279px;
+}
+
+.countryArrow {
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	width: 82px;
+	height: auto;
+}
+
+.country {
+	margin-left: 14px;
+}
+
+.flag {
+	padding: 3px;
+}
+
+.flagSelected {
+	border: 3px solid #2577DC;
+	padding: 0px;
+}
+
+.arrowGerman {
+	margin-top: 25px;
+}
+
+.arrowChinese {
+	margin-top: 15px;
+}
+
+.arrowFrench {
+	margin-top: -10px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.illustrationMainContainer {
+		margin-top: 15px;
+		justify-content: flex-start;
+		padding-bottom: 83px;
+	}
+
+	.illustrationMainImage {
+		height: 150px;
+	}	
+
+	.illustrationMainWrapper {
+		width: 159px;	
+		height: 150px;
+		margin-right: 0px;
+		position: relative;
+	}
+
+	.illustrationCountries {
+		height: 167px;
+		padding-left: 10px;
+	}
+
+	.countryArrow {
+		width: 49px;
+		padding-bottom: 20px;
+	}
+
+	.lion {
+		padding-left: 10px;
+	}
+	
+	.cow {
+		padding-left: 18px;
+	}
+	
+	.pig {
+		padding-left: 30px;
+	}
+	
+	.duck {
+		padding-left: 54px;
+	}
+
+	.lion-german-hat {
+		top: -10px;
+		left: 40px;
+		height: 26px;
+		width: auto;
+	}
+	
+	.lion-french-hat {
+		height: 38px;
+		width: auto;
+		top: -10px;
+		left: 54px;
+	}
+	
+	.lion-chinese-hat {
+		height: 68px;
+		width: auto;
+		top: -21px;
+		left: 22px;
+	}
+	
+	.cow-german-hat {
+		top: -10px;
+		left: 75px;
+		height: 50px;
+		width: auto;
+	}
+	
+	.cow-french-hat {
+		height: 39px;
+		width: auto;
+		top: -8px;
+		left: 72px;
+	}
+	
+	.cow-chinese-hat {
+		height: 84px;
+		width: auto;
+		top: -21px;
+		left: 65px;
+	}
+	
+	.sheep-german-hat {
+		height: 34px;
+		width: auto;
+		top: -14px;
+		left: 22px;
+	}
+	
+	.sheep-french-hat {
+		height: 37px;
+		width: auto;
+		top: -21px;
+		left: 28px;
+	}
+	
+	.sheep-chinese-hat {
+		height: 91px;
+		width: auto;
+		top: -19px;
+		left: 5px;
+	}
+	
+	.pig-german-hat {
+		height: 31px;
+		width: auto;
+		top: -12px;
+		left: 68px;
+	}
+	
+	.pig-french-hat {
+		height: 40px;
+		width: auto;
+		top: -12px;
+		left: 42px;
+	}
+	
+	.pig-chinese-hat {
+		height: 101px;
+		width: auto;
+		top: -36px;
+		left: 45px;
+	}
+	
+	.duck-german-hat {
+		height: 26px;
+		width: auto;
+		top: -14px;
+		left: 69px;
+	}
+	
+	.duck-french-hat {
+		height: 38px;
+		width: auto;
+		top: -8px;
+		left: 85px;
+	}
+	
+	.duck-chinese-hat {
+		height: 42px;
+		width: auto;
+		top: -22px;
+		left: 68px;
+	}
 }
 
 // Footer

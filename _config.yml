@@ -51,10 +51,15 @@ features                                  :
 # Image List
 illustrations                             :
   - icon                                  : assets/illustrations/lion-head.png
+    animalName                            : lion
   - icon                                  : assets/illustrations/cow-head.png
+    animalName                            : cow
   - icon                                  : assets/illustrations/sheep-head.png
+    animalName                            : sheep
   - icon                                  : assets/illustrations/pig-head.png
+    animalName                            : pig
   - icon                                  : assets/illustrations/duck-head.png
+    animalName                            : duck
 
 
 

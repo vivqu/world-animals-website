@@ -2,18 +2,50 @@
     <div class="container container-illustrations">
         <div class="illustrationContainer">
             {% for illustration in site.illustrations %}
-            {% if illustration.icon %}
+            {% if illustration.animalName == lion %}
+            <img class="illustrationImage illustrationImageSelected" src="{{ illustration.icon }}" />
+            {% else %}
             <img class="illustrationImage" src="{{ illustration.icon }}" />
             {% endif %}
 
             {% endfor %}
         </div>
         <div class="illustrationText">
-            <h2>Enjoy custom illustrations</h2>
-            <p class="illustrationDescription">Includes fifteen different animals wearing classic hats of various countries. Each animal and hat is lovingly drawn by hand.</p>
+            <h2>Hand-drawn illustrations</h2>
+            <p class="illustrationDescription">Includes fifteen different animals wearing classic hats of various
+                countries. Tap on the animal icons and flags to see the animals that will be speaking!</p>
         </div>
         <div class="illustrationMainContainer">
-            <img class="illustrationMainImage" src="assets/illustrations-main/lion.png"/>
+            <div class="illustrationMainWrapper">
+                <img class="illustrationHat hidden" src="" />
+                <img class="illustrationMainImage lion" src="assets/illustrations-main/lion.png" />
+            </div>
+            <div class="illustrationCountries">
+                <div class="countryArrow">
+                    <div class="arrowGerman">
+                        <img src="assets/flags/german-arrow.png" />
+                    </div>
+                    <div class="country">
+                        <img class="flag" src="assets/flags/german-flag.png" />
+                    </div>
+                </div>
+                <div class="countryArrow" style="margin-bottom: 10px">
+                    <div class="arrowChinese">
+                        <img src="assets/flags/chinese-arrow.png" />
+                    </div>
+                    <div class="country">
+                        <img class="flag" src="assets/flags/chinese-flag.png" />
+                    </div>
+                </div>
+                <div class="countryArrow">
+                    <div class="arrowFrench">
+                        <img src="assets/flags/french-arrow.png" />
+                    </div>
+                    <div class="country" style="margin-top: 15px">
+                        <img class="flag" src="assets/flags/french-flag.png" />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
