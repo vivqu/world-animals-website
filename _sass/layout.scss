@@ -133,12 +133,8 @@ header {
 .headerIcon {
 	width: 50px;
 	height: 50px;
-	-webkit-clip-path: url(#shape);
-	clip-path: url(#shape);
 	margin-right: 15px;
 }
-
-
 
 // Navigation Links
 nav {
@@ -295,12 +291,17 @@ nav > ul li a:active {
 
 .playStore {
 	height: 75px;
+}
+
+
+.appStore {
 	margin-right: 24px;
+	height: 75px;
 }
 
 @media only screen and (max-width: 992px) {
 
-	.playStore {
+	.appStore {
 		margin-right: 24px;
 		margin-bottom: 0px;
 	}
@@ -309,16 +310,12 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 528px) {
 
-	.playStore {
+	.appStore {
 		margin-right: 0px;
 		margin-bottom: 24px;
 	}
 	
 } 
-
-.appStore {
-	height: 75px;
-}
 
 
 
@@ -1073,6 +1070,7 @@ nav > ul li a:active {
 
 	.language:nth-child(-n+1) {
 		padding-top: 21px;   
+
 	}
 
 	.language:nth-child(3) {
@@ -1138,7 +1136,6 @@ nav > ul li a:active {
 }
 
 // Footer
-
 footer {
 	grid-area: f;
 	display: flex;
@@ -1147,20 +1144,118 @@ footer {
 	align-content: center;
 }
 
+.footerAppIcon {
+	width: 70px;
+	height: 70px;
+}
+
+.footerLogo {
+	margin-top: 25px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 115px;
+}
+
 .footerText {
 	color: $footer-text-color;
 	display: block;
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 0px;
+	padding-bottom: 10px;
 }
 
 .footerIcons {
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	display: flex;
 }
+
+.footerButtonsContainer {
+	margin-top: 12px;
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+.footerButtons {
+	filter: $drop-shadow;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.footerPlayStore {
+	height: 45px;
+}
+
+.footerAppStore {
+	margin-right: 12px;
+	height: 45px;
+}
+
+.footerLinksContainer {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.footerLinksContainer > p {
+	font-size: 0.8em;
+	color: $footer-text-color;
+	text-align: center;
+}
+
+.footerLinksContainer > p > a {
+	color: $footer-text-color;
+}
+
+.footerLinksContainer > p > a:hover {
+	text-decoration: underline; 
+}
+
+
+.footerDivider {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copyrightText {
+	font-size: 1.5rem;
+	color: $footer-text-color;
+	display: block;
+	line-height: 1.5;
+	width: 100%;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 53px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.footerAppStore {
+		margin-right: 12px;
+		margin-bottom: 0px;
+	}
+	
+} 
+
+@media only screen and (max-width: 528px) {
+
+	.footerAppStore {
+		margin-right: 0px;
+		margin-bottom: 12px;
+	}
+
+	.footerButtons {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}	
+} 
 
 @media only screen and (max-width: 992px) {
 	
@@ -1170,15 +1265,11 @@ footer {
 		line-height: 1.5;
 		width: 100%;
 		text-align: center;
-		padding-top: 54px;
-		padding-bottom: 61px;
 	}
 	
 	.footerIcons {
-		padding-bottom: 70px;
 		display: flex;
-	}
-	
+	}	
 } 
 
 .hidden {
