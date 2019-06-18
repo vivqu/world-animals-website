@@ -1,0 +1,26 @@
+<div class="languagesContainer">
+    <div class="languageText">
+        <h2>Supported languages</h2>
+    </div>
+    <div class="languages">
+        {% for language in site.languages %}
+
+        <div class="language">
+            <div>
+                <span class="fa-stack fa-1x">
+                    <i class="languageIconBack fas fa-circle fa-stack-2x"></i>
+                    <i class="languageIconTop fas fa-check fa-stack-1x"></i>
+                </span>
+            </div>
+            <div class="languageText">
+                <h3>
+                    {{ language }}
+                </h3>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+        <hr class="languageDivider" />
+</div>

@@ -61,7 +61,19 @@ illustrations                             :
   - icon                                  : assets/illustrations/duck-head.png
     animalName                            : duck
 
-
+# Supported languages list
+languages                                 :
+  - English
+  - Chinese
+  - French
+  - German
+  - Italian
+  - Japanese
+  - Korean
+  - Norwegian
+  - Russian
+  - Spanish
+  - Swedish
 
 # Theme Settings
 header_title_color                        : "#ffffff"
