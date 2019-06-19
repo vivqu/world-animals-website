@@ -15,15 +15,15 @@
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
 	<div class="dropdown headerMenu">
-			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-				aria-haspopup="true" aria-expanded="false">
-				English
-			</button>
-			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				{% for language in site.languages %}
-				<a class="dropdown-item" href="#">{{ language.localized }}</a>
-				{% endfor %}
-			</div>
+		<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+			aria-haspopup="true" aria-expanded="false">
+			{{ page.lang_name }}
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			{% for language in site.languages %}
+			<a class="dropdown-item" href="{{ language.url }}">{{ language.localized }}</a>
+			{% endfor %}
 		</div>
+	</div>
 </header>
 <script src="{{'/assets/js/bootstrap-dropdown.js' | prepend: site.baseurl}}"></script>

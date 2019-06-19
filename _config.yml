@@ -14,65 +14,6 @@ app_price                                 :                                     
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-t:
-  en:
-    app_headline: In English, the frog says "ribbit"...
-    app_description: What does it say in other languages?
-    language_feature_title: Supports 11 different languages
-    language_feature_description: Customize which languages are used for the animal questions.
-    answer_feature_title: Hear spoken answers
-    answer_feature_description: Learn how to pronounce sounds with built-in recordings.
-    kids_feature_title: Safe for kids
-    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
-    illustration_title: Hand-drawn illustrations
-    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
-    languages_title: Supported languages
-    english: English
-    chinese: Chinese
-    french: French
-    german: German
-    italian: Italian
-    japanese: Japanese
-    korean: Korean
-    norwegian: Norwegian
-    russian: Russian
-    spanish: Spanish
-    swedish: Swedish
-    footer_promo: Start your language learning now!
-    footer_feedback: Feedback
-    footer_privacy: Privacy Policy
-    footer_contact: Contact us
-    footer_rights: All rights reserved.
-  zh:
-    app_headline: 一只青蛙的叫声是“呱呱”...
-    app_description: 在其他语言中说什么？
-    language_feature_title: 包括 11 种不同语言
-    language_feature_description: 自定义动物提问所使用的语言.
-    answer_feature_title: 听听答案
-    answer_feature_description: 使用内置录音学习如何发音。
-    kids_feature_title: Safe for kids
-    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
-    illustration_title: Hand-drawn illustrations
-    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
-    languages_title: Supported languages
-    english: English
-    chinese: Chinese
-    french: French
-    german: German
-    italian: Italian
-    japanese: Japanese
-    korean: Korean
-    norwegian: Norwegian
-    russian: Russian
-    spanish: Spanish
-    swedish: Swedish
-    footer_promo: Start your language learning now!
-    footer_feedback: Feedback
-    footer_privacy: Privacy Policy
-    footer_contact: Contact us
-    footer_rights: All rights reserved.
-
-
 # Information About Yourself
 your_name                                 : Vivian Qu                                
 your_link                                 : https://vivqu.com                     
@@ -119,26 +60,37 @@ illustrations                             :
 languages                                 :
   - title: English
     localized: English
+    url: /
   - title: Chinese
     localized: 中文
+    url: /cn/
   - title: French
     localized: Français
+    url: /fr/
   - title: German
     localized: Deutsch
+    url: /de/
   - title: Italian
     localized: Italiano
+    url: /it/
   - title: Japanese
     localized: 日本語
+    url: /ja/
   - title: Korean
     localized: 한국어
+    url: /ko/
   - title: Norwegian
     localized: Norsk språk
+    url: /nb/
   - title: Russian
     localized: русский
+    url: /ru/
   - title: Spanish
     localized: Español
+    url: /es/
   - title: Swedish
     localized: Svenska språket
+    url: /sv/
 
 
 # Theme Settings
@@ -162,6 +114,310 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
+
+####################################################
+###                 Translations                 ###
+####################################################
+
+
+t:
+  en:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Supports 11 different languages
+    language_feature_description: Customize which languages are used for the animal questions.
+    answer_feature_title: Hear spoken answers
+    answer_feature_description: Learn how to pronounce sounds with built-in recordings.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Hand-drawn illustrations
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: English
+    chinese: Chinese
+    french: French
+    german: German
+    italian: Italian
+    japanese: Japanese
+    korean: Korean
+    norwegian: Norwegian
+    russian: Russian
+    spanish: Spanish
+    swedish: Swedish
+    footer_promo: Start your language learning now!
+    footer_feedback: Feedback
+    footer_privacy: Privacy Policy
+    footer_contact: Contact us
+  fr:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Comprend 11 langues différentes
+    language_feature_description: Personnalisez les langues utilisées pour les questions sur les animaux.
+    answer_feature_title: Écoutez les réponses
+    answer_feature_description: Apprenez à prononcer les sons avec des enregistrements intégrés.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Illustrations personnalisées
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: Anglais
+    japanese: Japonais
+    german: Allemand
+    french: Français
+    chinese: Chinois
+    italian: Italien
+    korean: Coréen
+    norwegian: Norvégien
+    swedish: Suédois
+    spanish: Espagnol
+    russian: Russe
+    footer_promo: Start your language learning now!
+    footer_feedback: Commentaire
+    footer_privacy:  Politique de confidentialité (Anglais)
+    footer_contact: Contact us
+  de:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Beinhaltet 11 verschiedene Sprachen
+    language_feature_description: Ihr könnt anpassen, welche Sprachen für die Tierfragen verwendet werden.
+    answer_feature_title: Hört euch die Antworten an
+    answer_feature_description: Lernt von integrierten Aufnahmen wie man die Laute ausspricht.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Individualisierte Illustrationen
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: Englisch
+    japanese: Japanisch
+    german: Deutsch
+    french: Französisch
+    chinese: Chinesisch
+    italian: Italienisch
+    korean: Koreanisch
+    norwegian: Norwegisch
+    swedish: Schwedisch
+    spanish: Spanisch
+    russian: Russisch
+    footer_promo: Start your language learning now!
+    footer_feedback: Feedback
+    footer_privacy:  Datenschutzrichtlinie ( English )
+    footer_contact: Contact us
+  es:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Incluye 11 idiomas diferentes
+    language_feature_description: Personaliza los idiomas que se utilizan para las preguntas sobre animales.
+    answer_feature_title: Escucha las respuestas
+    answer_feature_description: Aprende a pronunciar los sonidos con grabaciones integradas.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Ilustraciones personalizadas
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: Inglés
+    japanese: Nipona
+    german: Alemán
+    french: Francés
+    chinese: Chino
+    italian: Italiano
+    korean: Coreano
+    norwegian: Noruego
+    swedish: Sueco
+    spanish: Español
+    russian: Ruso
+    footer_promo: Start your language learning now!
+    footer_feedback: Realimentación
+    footer_privacy:  Política de privacidad (Inglés)
+    footer_contact: Contact us
+  it:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Include 11 lingue diverse
+    language_feature_description: Personalizza le lingue utilizzate per le domande sugli animali.
+    answer_feature_title: Ascolta le risposte
+    answer_feature_description: Impara come pronunciare i suoni con le registrazioni integrate.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Illustrazioni personalizzate
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: Inglese
+    japanese: Giapponese
+    german: Tedesco
+    french: Francese
+    chinese: Cinese
+    italian: Italiano
+    korean: Coreano
+    norwegian: Norvegese
+    swedish: Svedese
+    spanish: Spagnola
+    russian: Russo
+    footer_promo: Start your language learning now!
+    footer_feedback: Commentaire
+    footer_privacy: Termini di Servizio (English) 
+    footer_contact: Contact us
+  ja:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: 11の言語を内蔵
+    language_feature_description: 動物の質問に使う言語を選択できます。
+    answer_feature_title: 答えを耳で聴いてみましょう
+    answer_feature_description: 内蔵音声で発音の仕方を学びましょう。
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: カスタムのイラスト
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: 英語
+    japanese: 日本語
+    german: ドイツ語
+    french: フランス語
+    chinese: 中国語
+    italian: イタリア語
+    korean: 韓国語
+    norwegian: ノルウェー語
+    swedish: スウェーデン語
+    spanish: スペイン語
+    russian: ロシア語
+    footer_promo: Start your language learning now!
+    footer_feedback: フィードバック
+    footer_privacy:  Privacy Policy
+    footer_contact: Contact us
+  ko:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: 11가지 언어 포함
+    language_feature_description: 동물 질문에 어떤 언어를 사용할지 사용자 정의 하세요. 깜짝 질문 하나도 포함되어 있습니다.
+    answer_feature_title: 여기 답이 있습니다
+    answer_feature_description: 내장된 녹음으로 어떻게 발음하는지 배우세요.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: 맞춤형 그림
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: 영어
+    japanese: 일본어
+    german: 독일 말
+    french: 프랑스어
+    chinese: 중국어
+    italian: 이탈리아어
+    korean: 한국어
+    norwegian: 노르웨이어 언어
+    swedish: 스웨덴어
+    spanish: 스페인어
+    russian: 러시아어
+    footer_promo: Start your language learning now!
+    footer_feedback: 피드백
+    footer_privacy:  개인 정보 보호 정책 (영어)
+    footer_contact: Contact us
+  nb:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Innehåller 11 olika språk
+    language_feature_description: Välj vilket språk som används för djurfrågorna.
+    answer_feature_title: Hør svarene
+    answer_feature_description: Lær hvordan du uttaler lydene med innebygde innspillinger.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Tilpassede illustrasjoner
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: Engelske språk
+    japanese: Japansk språk
+    german: Tysk språk
+    french: Fransk språk
+    chinese: Kinesisk språk
+    italian: Italiensk språk
+    korean: Koreansk språk
+    norwegian: Norsk språk
+    swedish: Svensk språk
+    spanish: Spansk språk
+    russian: Russisk språk
+    footer_promo: Start your language learning now!
+    footer_feedback: Tilbakemelding
+    footer_privacy:  Privacy Policy
+    footer_contact: Contact us
+  ru:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Включает 11 различных языков
+    language_feature_description: выбирайте по собственному усмотрению, какие языки использовать для вопросов животных.
+    answer_feature_title: Послушайте ответы
+    answer_feature_description: Узнайте, как произносить звуки с помощью встроенных записей.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Специальные иллюстрации
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: английский
+    japanese: японский
+    german: немец
+    french: французский
+    chinese: китайский
+    italian: итальянец
+    korean: корейский
+    norwegian: норвежский
+    swedish: шведский
+    spanish: испанский
+    russian: русский
+    footer_promo: Start your language learning now!
+    footer_feedback: Отзыв
+    footer_privacy:  Политика конфиденциальности ( английский ) 
+    footer_contact: Contact us
+  sv:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Innehåller 11 olika språk
+    language_feature_description: Välj vilket språk som används för djurfrågorna.
+    answer_feature_title: Hör svaren
+    answer_feature_description: Lär dig uttala ljuden med inbyggda inspelningar.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Unika illustrationer
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: Engelska språket
+    japanese: Japanska språket
+    german: Tyska språket
+    french: Franska språket
+    chinese: Kinesiskt språk
+    italian: Italienska språket
+    korean: Koreanska språket
+    norwegian: Norska språket
+    swedish: Svenska språket
+    spanish: Spanska språket
+    russian: Ryska språket,
+    footer_promo: Start your language learning now!
+    footer_feedback: Återkoppling
+    footer_privacy:  Privacy Policy
+    footer_contact: Contact us
+  zh:
+    app_headline: 一只青蛙的叫声是“呱呱”...
+    app_description: 在其他语言中说什么？
+    language_feature_title: 包括 11 种不同语言
+    language_feature_description: 自定义动物提问所使用的语言.
+    answer_feature_title: 听听答案
+    answer_feature_description: 使用内置录音学习如何发音。
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: 自定义插图
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: 英语,
+    japanese: 日语,
+    german: 德语,
+    french: 法语,
+    chinese: 中文,
+    italian: 意大利语,
+    korean: 朝鲜语,
+    norwegian: 挪威语,
+    swedish: 瑞典语,
+    spanish: 西班牙语,
+    russian: 俄语,
+    footer_promo: Start your language learning now!
+    footer_feedback: 反馈
+    footer_privacy:  隐私政策 (英语)
+    footer_contact: Contact us
 
 
 ####################################################
