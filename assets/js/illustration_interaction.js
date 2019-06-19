@@ -49,7 +49,7 @@ const changeSelection = (e) => {
     let animalName = animalPath.split('-')[0];
     if (updatedAnimal && animalName.length > 0) {
         const mainImage = document.getElementsByClassName('illustrationMainImage')[0];
-        mainImage.src = 'assets/illustrations-main/' + animalName + '.png';
+        mainImage.src = '/assets/illustrations-main/' + animalName + '.png';
         mainImage.className = "illustrationMainImage " + animalName;
     }
 
