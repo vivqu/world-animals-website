@@ -1,6 +1,6 @@
 <div class="languagesContainer">
     <div class="languageText">
-        <h2>Supported languages</h2>
+        <h2>{{ site.t[page.lang].languages_title }}</h2>
     </div>
     <div class="languages">
         {% for language in site.languages %}
@@ -14,7 +14,8 @@
             </div>
             <div class="languageText">
                 <h3>
-                    {{ language.title }}
+                    {% assign title = (language.title | downcase) %}
+                    {{ site.t[page.lang][title] }}
                 </h3>
             </div>
         </div>

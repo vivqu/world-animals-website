@@ -12,10 +12,12 @@
         </div>
         <div class="featureText">
             <h3>
-                {{ feature.title }}
+                {% assign title_text = feature.title %}
+                {{ site.t[page.lang][title_text] }}
             </h3>
             <p>
-                {{ feature.description }}
+                {% assign description_text = feature.description %}
+                {{ site.t[page.lang][description_text] }}
             </p>
         </div>
     </div>

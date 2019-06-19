@@ -1,4 +1,3 @@
-#page title
 page_title                                : WorldAnimals                              # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
@@ -12,11 +11,66 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : WorldAnimals                             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_headline                              : In English, the frog says "ribbit"... #Have you ever wondered...
-app_description                           : What does it say in other languages? #What animals sound like in different languages?
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
+t:
+  en:
+    app_headline: In English, the frog says "ribbit"...
+    app_description: What does it say in other languages?
+    language_feature_title: Supports 11 different languages
+    language_feature_description: Customize which languages are used for the animal questions.
+    answer_feature_title: Hear spoken answers
+    answer_feature_description: Learn how to pronounce sounds with built-in recordings.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Hand-drawn illustrations
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: English
+    chinese: Chinese
+    french: French
+    german: German
+    italian: Italian
+    japanese: Japanese
+    korean: Korean
+    norwegian: Norwegian
+    russian: Russian
+    spanish: Spanish
+    swedish: Swedish
+    footer_promo: Start your language learning now!
+    footer_feedback: Feedback
+    footer_privacy: Privacy Policy
+    footer_contact: Contact us
+    footer_rights: All rights reserved.
+  zh:
+    app_headline: 一只青蛙说的叫声是“呱呱”...
+    app_description: What does it say in other languages?
+    language_feature_title: Supports 11 different languages
+    language_feature_description: Customize which languages are used for the animal questions.
+    answer_feature_title: Hear spoken answers
+    answer_feature_description: Learn how to pronounce sounds with built-in recordings.
+    kids_feature_title: Safe for kids
+    kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
+    illustration_title: Hand-drawn illustrations
+    illustration_description: Includes 15 different animals wearing classic hats of various countries. Tap on the animal and flag icons to see the animals that will be speaking!
+    languages_title: Supported languages
+    english: English
+    chinese: Chinese
+    french: French
+    german: German
+    italian: Italian
+    japanese: Japanese
+    korean: Korean
+    norwegian: Norwegian
+    russian: Russian
+    spanish: Spanish
+    swedish: Swedish
+    footer_promo: Start your language learning now!
+    footer_feedback: Feedback
+    footer_privacy: Privacy Policy
+    footer_contact: Contact us
+    footer_rights: All rights reserved.
 
 
 # Information About Yourself
@@ -35,16 +89,16 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Supports 11 different languages
-    description                           : Customize which languages are used for the animal questions.
+  - title                                 : language_feature_title 
+    description                           : language_feature_description 
     fontawesome_icon_name                 : language
 
-  - title                                 : Hear spoken answers
-    description                           : Learn how to pronounce sounds with built-in recordings.
+  - title                                 : answer_feature_title
+    description                           : answer_feature_description
     fontawesome_icon_name                 : volume-up
 
-  - title                                 : Safe for kids
-    description                           : Built with privacy in mind. No data is ever collected by the app.
+  - title                                 : kids_feature_title
+    description                           : kids_feature_description
     fontawesome_icon_name                 : baby
 
 
@@ -108,17 +162,6 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
 
 
 ####################################################

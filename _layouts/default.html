@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang={{ page.lang }}>
 
 {% include head.html %}
 
@@ -25,12 +25,12 @@
                 <div class="appInfo">
                     <div class="appHeadlineContainer">
                         <h1 class="appHeadline">
-                            {{ site.app_headline }}
+                            {{ site.t[page.lang].app_headline }}
                         </h1>
                     </div>
                     <div class="appDescriptionContainer">
                         <p class="appDescription">
-                            {{ site.app_description }}
+                            {{ site.t[page.lang].app_description }}
                         </p>
                     </div>
                     <div class="downloadButtonsContainer">
