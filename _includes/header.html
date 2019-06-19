@@ -14,6 +14,7 @@
 		</div>
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
+	{% if page.exclude_dropdown != true %}
 	<div class="dropdown headerMenu">
 		<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
 			aria-haspopup="true" aria-expanded="false">
@@ -25,5 +26,6 @@
 			{% endfor %}
 		</div>
 	</div>
+	{% endif %}
 </header>
 <script src="{{'/assets/js/bootstrap-dropdown.js' | prepend: site.baseurl}}"></script>

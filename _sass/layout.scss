@@ -1,6 +1,13 @@
 .imageWrapper {					// Sets the background image in the header area
 	height: 494px;
-	background: radial-gradient(circle at 80% -20%, #2AF598, #08AEEA 80%, #08AEEA 95%);
+	background: radial-gradient(1000px circle at 80% -20%, #2AF598, #08AEEA 80%, #08AEEA 95%);
+	background-position: top;
+	border-radius: 0px;
+}
+
+.imageWrapperShort {					// Sets the background image in the header area
+	height: 124px;
+	background: radial-gradient(1000px circle at 80% -20%, #2AF598, #08AEEA 80%, #08AEEA 95%);
 	background-position: top;
 	border-radius: 0px;
 }

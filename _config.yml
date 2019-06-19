@@ -403,17 +403,17 @@ t:
     illustration_title: 自定义插图
     illustration_description: 包括戴着各国经典帽子的15种不同动物。点击动物和旗帜图标，看看会说话的动物！
     languages_title: 支持语言
-    english: 英语,
-    japanese: 日语,
-    german: 德语,
-    french: 法语,
-    chinese: 中文,
-    italian: 意大利语,
-    korean: 朝鲜语,
-    norwegian: 挪威语,
-    swedish: 瑞典语,
-    spanish: 西班牙语,
-    russian: 俄语,
+    english: 英语
+    japanese: 日语
+    german: 德语
+    french: 法语
+    chinese: 中文
+    italian: 意大利语
+    korean: 朝鲜语
+    norwegian: 挪威语
+    swedish: 瑞典语
+    spanish: 西班牙语
+    russian: 俄语
     footer_promo: 立即开始学习语言！
     footer_feedback: 反馈
     footer_privacy:  隐私政策 (英语)
