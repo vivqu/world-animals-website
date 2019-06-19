@@ -8,7 +8,7 @@ playstore_link                            : http://play.google.com              
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : /assets/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : WorldAnimals                             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 
@@ -44,12 +44,12 @@ t:
     footer_contact: Contact us
     footer_rights: All rights reserved.
   zh:
-    app_headline: 一只青蛙说的叫声是“呱呱”...
-    app_description: What does it say in other languages?
-    language_feature_title: Supports 11 different languages
-    language_feature_description: Customize which languages are used for the animal questions.
-    answer_feature_title: Hear spoken answers
-    answer_feature_description: Learn how to pronounce sounds with built-in recordings.
+    app_headline: 一只青蛙的叫声是“呱呱”...
+    app_description: 在其他语言中说什么？
+    language_feature_title: 包括 11 种不同语言
+    language_feature_description: 自定义动物提问所使用的语言.
+    answer_feature_title: 听听答案
+    answer_feature_description: 使用内置录音学习如何发音。
     kids_feature_title: Safe for kids
     kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
     illustration_title: Hand-drawn illustrations
@@ -104,15 +104,15 @@ features                                  :
 
 # Image List
 illustrations                             :
-  - icon                                  : assets/illustrations/lion-head.png
+  - icon                                  : /assets/illustrations/lion-head.png
     animalName                            : lion
-  - icon                                  : assets/illustrations/cow-head.png
+  - icon                                  : /assets/illustrations/cow-head.png
     animalName                            : cow
-  - icon                                  : assets/illustrations/sheep-head.png
+  - icon                                  : /assets/illustrations/sheep-head.png
     animalName                            : sheep
-  - icon                                  : assets/illustrations/pig-head.png
+  - icon                                  : /assets/illustrations/pig-head.png
     animalName                            : pig
-  - icon                                  : assets/illustrations/duck-head.png
+  - icon                                  : /assets/illustrations/duck-head.png
     animalName                            : duck
 
 # Supported languages list

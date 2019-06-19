@@ -4,7 +4,7 @@
 
 $body-color: {{ site.body_background_color }};
 $accent-color: {{ site.link_color }};
-$device-frame: "assets/iphone-white.png";
+$device-frame: "/assets/iphone-white.png";
 
 $header-title-color: {{ site.header_title_color }};
 $app-title-color: {{ site.app_title_color }};

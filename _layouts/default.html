@@ -35,10 +35,10 @@
                     </div>
                     <div class="downloadButtonsContainer">
                         <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore"
-                                src="assets/appstore.png"></a>
+                                src="/assets/appstore-{{ page.lang }}.png"></a>
                         {% if site.playstore_link %}
                         <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore"
-                                src="assets/playstore.png"></a>
+                                src="/assets/playstore.png"></a>
                         {% endif %}
 
                     </div>
@@ -57,4 +57,5 @@
 <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
 <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
 <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+
 </html>

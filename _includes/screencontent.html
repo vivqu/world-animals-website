@@ -1,15 +1,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 {% for file in site.static_files %}
-    {% if file.path contains 'assets/screenshot/frog.png' %}
+    {% if file.path contains '/assets/screenshot/frog.png' %}
         <script>
             $(function() {
-                $(".iphoneScreen").attr('src', 'assets/screenshot/frog.png');
+                $(".iphoneScreen").attr('src', '/assets/screenshot/frog.png');
                 $(".iphoneScreen").click(function () {
-                    if ($(".iphoneScreen").attr('src') == 'assets/screenshot/frog.png') {
-                        $(".iphoneScreen").attr('src', 'assets/screenshot/frog-answer.png');
+                    if ($(".iphoneScreen").attr('src') == '/assets/screenshot/frog.png') {
+                        $(".iphoneScreen").attr('src', '/assets/screenshot/frog-answer.png');
                     } else {
-                        $(".iphoneScreen").attr('src', 'assets/screenshot/frog.png');
+                        $(".iphoneScreen").attr('src', '/assets/screenshot/frog.png');
                     }
                 });
             });

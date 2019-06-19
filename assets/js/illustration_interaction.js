@@ -118,7 +118,7 @@ const updateAnimalHat = (country, animal) => {
         return;
     }
     let hatImage = hatImages[0];
-    hatImage.src = "assets/hats/" + animal + "-" + country + ".png";
+    hatImage.src = "/assets/hats/" + animal + "-" + country + ".png";
     hatImage.className = "illustrationHat " + animal + "-" + country + "-hat";
 }
 
