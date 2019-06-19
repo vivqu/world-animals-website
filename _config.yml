@@ -12,8 +12,8 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : WorldAnimals                             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_headline                              : Have you ever wondered...
-app_description                           : What animals sound like in different languages?
+app_headline                              : In English, the frog says "ribbit"... #Have you ever wondered...
+app_description                           : What does it say in other languages? #What animals sound like in different languages?
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -63,17 +63,29 @@ illustrations                             :
 
 # Supported languages list
 languages                                 :
-  - English
-  - Chinese
-  - French
-  - German
-  - Italian
-  - Japanese
-  - Korean
-  - Norwegian
-  - Russian
-  - Spanish
-  - Swedish
+  - title: English
+    localized: English
+  - title: Chinese
+    localized: 中文
+  - title: French
+    localized: Français
+  - title: German
+    localized: Deutsch
+  - title: Italian
+    localized: Italiano
+  - title: Japanese
+    localized: 日本語
+  - title: Korean
+    localized: 한국어
+  - title: Norwegian
+    localized: Norsk språk
+  - title: Russian
+    localized: русский
+  - title: Spanish
+    localized: Español
+  - title: Swedish
+    localized: Svenska språket
+
 
 # Theme Settings
 header_title_color                        : "#ffffff"
