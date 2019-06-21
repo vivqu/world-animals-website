@@ -126,7 +126,7 @@ t:
     app_description: What does it say in other languages?
     language_feature_title: Supports 11 different languages
     language_feature_description: Customize which languages are used for the animal questions.
-    answer_feature_title: Hear spoken answers
+    answer_feature_title: Hear answers read out loud
     answer_feature_description: Learn how to pronounce sounds with built-in recordings.
     kids_feature_title: Safe for kids
     kids_feature_description: Built with privacy in mind. No data is ever collected by the app.
