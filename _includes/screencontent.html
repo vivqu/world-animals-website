@@ -1,18 +1,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-{% for file in site.static_files %}
-    {% if file.path contains '/assets/screenshot/frog.png' %}
+{% if page.layout == 'default' %}
         <script>
             $(function() {
-                $(".iphoneScreen").attr('src', '/assets/screenshot/frog.png');
+                $(".iphoneScreen").attr('src', '/assets/localized-img/frog-{{page.lang}}.png');
                 $(".iphoneScreen").click(function () {
-                    if ($(".iphoneScreen").attr('src') == '/assets/screenshot/frog.png') {
-                        $(".iphoneScreen").attr('src', '/assets/screenshot/frog-answer.png');
+                    if ($(".iphoneScreen").attr('src') == '/assets/localized-img/frog-{{page.lang}}.png') {
+                        $(".iphoneScreen").attr('src', '/assets/localized-img/frog-answer-{{page.lang}}.png');
                     } else {
-                        $(".iphoneScreen").attr('src', '/assets/screenshot/frog.png');
+                        $(".iphoneScreen").attr('src', '/assets/localized-img/frog-{{page.lang}}.png');
                     }
                 });
             });
         </script>
-    {% endif %}
-{% endfor %}
+{% endif %}

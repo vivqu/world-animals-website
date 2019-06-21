@@ -64,6 +64,9 @@ languages                                 :
   - title: Chinese
     localized: 中文
     url: /cn/
+  - title: Spanish
+    localized: Español
+    url: /es/
   - title: French
     localized: Français
     url: /fr/
@@ -85,9 +88,6 @@ languages                                 :
   - title: Russian
     localized: русский
     url: /ru/
-  - title: Spanish
-    localized: Español
-    url: /es/
   - title: Swedish
     localized: Svenska språket
     url: /sv/
