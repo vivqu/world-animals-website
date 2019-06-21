@@ -148,6 +148,7 @@ t:
     footer_feedback: Feedback
     footer_privacy: Privacy Policy
     footer_contact: Contact us
+    home: Home
   fr:
     app_headline: En français, la grenouille dit "coâ coâ"...
     app_description: Que dit-elle dans d'autres langues ?

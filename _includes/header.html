@@ -10,9 +10,18 @@
 					</clipPath>
 				</defs>
 			</svg>
+			{% if page.exclude_dropdown != true %}
 			<img class="headerIcon" src="{{ site.app_icon }}">
+			{% else %}
+			<a href="/"><img class="headerIcon" src="{{ site.app_icon }}"></a>
+			{% endif %}</p>
 		</div>
-		<p class="headerName">{{ site.app_name }}</p>
+		<p class="headerName">
+			{% if page.exclude_dropdown != true %}
+			{{ site.app_name }}
+			{% else %}
+			<a href="/">{{ site.app_name }}</a>
+			{% endif %}</p>
 	</div>
 	{% if page.exclude_dropdown != true %}
 	<div class="dropdown headerMenu">

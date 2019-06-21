@@ -6,7 +6,7 @@
 }
 
 .imageWrapperShort {					// Sets the background image in the header area
-	height: 124px;
+	height: 115px;
 	background: radial-gradient(1000px circle at 80% -20%, #2AF598, #08AEEA 80%, #08AEEA 95%);
 	background-position: top;
 	border-radius: 0px;
@@ -24,12 +24,69 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 376px auto auto;
+	grid-template-rows: 115px 376px auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p i i i i i i i i i"
 		"p p p c c c c c c c c c"
+}
+
+.containerPrivacyPolicy {	
+	display: grid;
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 15px;
+	padding-right: 15px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 115px auto;
+	grid-column-gap: 30px;
+	grid-template-areas: 
+		"h h h h h h h h h h h h"
+		"p p p p p p p p p p p p"
+}
+
+.privacyPolicyContent {
+	grid-area: p;
+	margin-top: 53px;
+}
+
+.headerName > a {
+	color: white;
+}
+
+.privacyPolicyContent > h1 {
+	margin-bottom: 20px;
+}
+
+.privacyPolicyContent > h2 {
+	margin-bottom: 20px;
+}
+
+.privacyPolicyContent > h3 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.privacyPolicyContent > h4 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.privacyPolicyContent > p {
+	font-size: 1.5rem;
+}
+
+.privacyPolicyContent > ul {
+	font-size: 1.5rem;
+	margin-left: 40px;
+}
+
+p.privacyPolicyFooter {
+	font-size: 1rem;
+	margin-bottom: 20px;
+	text-align: right;
 }
 
 .container-illustrations {
