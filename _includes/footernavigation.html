@@ -1,0 +1,10 @@
+<div class="footerLinksContainer">
+    <p>
+        {% if page.layout != 'default' %}
+        <a href="/">{{ site.t[page.lang].home }}</a> | 
+        {% endif %}
+        <!-- <a href="">{{ site.t[page.lang].footer_feedback }}</a> |  -->
+        <a href="/privacy-policy/">{{ site.t[page.lang].footer_privacy }}</a> | 
+        <a href="mailto:hello@worldanimalsapp.com" target="_blank">{{ site.t[page.lang].footer_contact }}</a>
+    </p>
+</div>

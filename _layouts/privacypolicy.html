@@ -24,7 +24,9 @@
                     <hr />
                     <h3>Types of Data collected</h3>
                     <p>Among the types of Personal Data that this Application collects, by itself or through third parties, 
-                        there are: country; app information; device information; first name; email address.</p>
+                            there are: country; app information; device information.</p>
+                    <!-- <p>Among the types of Personal Data that this Application collects, by itself or through third parties, 
+                        there are: country; app information; device information; first name; email address.</p> -->
                     <p>Complete details on each type of Personal Data collected are provided in the dedicated sections of this 
                         privacy policy or by specific explanation texts displayed prior to the Data collection.</p>
                     <p>Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Application.</p>
@@ -95,14 +97,16 @@
                     <hr />
                     <h3>The purposes of processing</h3>
                     <p>The Data concerning the User is collected to allow the Owner to provide its Services, as well as for the 
-                        following purposes: Analytics, Beta Testing, and Contacting the User.</p>
+                            following purposes: Analytics and Beta Testing.</p>
+                    <!-- <p>The Data concerning the User is collected to allow the Owner to provide its Services, as well as for the 
+                        following purposes: Analytics, Beta Testing, and Contacting the User.</p> -->
                     <p>Users can find further detailed information about such purposes of processing and about the specific 
                         Personal Data used for each purpose in the respective sections of this document.</p>
                     <hr />
                     <h3>Detailed information on the processing of Personal Data</h3>
                     <p>Personal Data is collected for the following purposes and using the following services:</p>
                     <h4>Analytics</h4>
-                    <p>The services contained in this section enable the Owner to monitor and analyze web 
+                    <p>The services contained in this section enable the Owner to monitor and analyze web ack
                         traffic and can be used to keep track of User behavior.</p>
                     <p><b>Google Analytics (Google LLC)</b></p>
                     <p>Google Analytics is a web analysis service provided by Google LLC (“Google”). Google utilizes the Data collected to 
@@ -120,11 +124,11 @@
                     <p>Personal Data collected: app information; country; device information.</p>
                     <p>Place of processing: United States – 
                         <a href="https://www.apple.com/legal/internet-services/itunes/testflight/sren/terms.html" target="_blank">Privacy Policy</a>.</p>
-                    <h4>Contacting the User</h4>
-                    <p><b>Feedback form (this Application)</b></p>
+                    <!-- <h4>Contacting the User</h4> -->
+                    <!-- <p><b>Feedback form (this Application)</b></p>
                     <p>By filling in the feedback form with their Data, the User authorizes this Application to use these details to reply to 
                         requests for information, quotes or any other kind of request as indicated by the form’s header.</p>
-                    <p>Personal Data collected: country; email address; first name.</p>
+                    <p>Personal Data collected: country; email address; first name.</p> -->
                     <hr />
                     <h3>The rights of Users</h3>
                     <p>Users may exercise certain rights regarding their Data processed by the Owner.</p>
@@ -232,13 +236,8 @@
                     <p>This privacy policy relates solely to this Application, if not stated otherwise within this document.</p>                            
                     <p class="privacyPolicyFooter">Last updated: June 21, 2019</p>
                     <hr />
-                    <div class="footerLinksContainer" style="margin-bottom: 53px">
-                        <p>
-                            <a href="/">{{ site.t[page.lang].home }}</a> |
-                            <a href="">{{ site.t[page.lang].footer_feedback }}</a> |
-                            <a href="/privacy-policy/">{{ site.t[page.lang].footer_privacy }}</a> |
-                            <a href="">{{ site.t[page.lang].footer_contact }}</a>
-                        </p>
+                    <div style="margin-bottom: 53px">
+                        {% include footernavigation.html %}
                     </div>
                 </div>
             </div>
