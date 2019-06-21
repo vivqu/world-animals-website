@@ -253,6 +253,9 @@ a.dropdown-item {
 		visibility: hidden;
 	}
 	
+	.logo.visible > p {
+		visibility: visible;
+	}
 } 
 
 .headerIcon {
