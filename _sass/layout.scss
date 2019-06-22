@@ -432,6 +432,8 @@ a.dropdown-item {
 	position: absolute;
 	left: 85px;
 	top: 350px;
+	width: 51px;
+	height: auto;
 }
 
 .videoContainer {
@@ -471,6 +473,11 @@ a.dropdown-item {
 		width: 185px;
 		height: 400px;
 	}
+
+	.handTapContainer {
+		left: 75px;
+		top: 320px;
+	}
 	
 } 
 
@@ -506,6 +513,14 @@ a.dropdown-item {
 		height: 488px;
 	}
 	
+	.handTapContainer {
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		top: 380px;
+		width: 51px;
+	}
 } 
 
 
