@@ -10,7 +10,11 @@
                     } else {
                         $(".iphoneScreen").attr('src', '/assets/localized-img/frog-{{page.lang}}.png');
                     }
+                    if ($(".handTapContainer").hasClass('hidden') == false) {
+                        $(".handTapContainer").addClass('hidden');
+                    }
                 });
+                
             });
         </script>
 {% endif %}

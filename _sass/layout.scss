@@ -417,6 +417,7 @@ a.dropdown-item {
 	background-size: 230px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
+	position: relative;
 }
 
 .iphoneScreen {
@@ -425,6 +426,13 @@ a.dropdown-item {
 	clip-path: url(#screenMask);
 	margin-left: 16px;
 	margin-top: 14px;
+}
+
+.handTapContainer {
+	position: absolute;
+	left: 85px;
+	top: 350px;
+	opacity: 0;
 }
 
 .videoContainer {

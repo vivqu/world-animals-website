@@ -176,6 +176,7 @@ t:
     footer_feedback: Commentaire
     footer_privacy:  Politique de confidentialité (Anglais)
     footer_contact: Contactez-nous
+    home: Accueil
   de:
     app_headline: Auf Deutsch sagt der Frosch "qvak qvak"...
     app_description: Was sagt er in anderen Sprachen?
@@ -203,6 +204,7 @@ t:
     footer_feedback: Feedback
     footer_privacy:  Datenschutzrichtlinie ( English )
     footer_contact: Kontakt
+    home: Startseite
   es:
     app_headline: En español, la rana hace "croac croac"...
     app_description: ¿Cómo hace en otros idiomas?
@@ -230,6 +232,7 @@ t:
     footer_feedback: Realimentación
     footer_privacy:  Política de privacidad (Inglés)
     footer_contact: Contáctanos
+    home: Inicio
   it:
     app_headline: In italiano, la rana fa "crack crack"...
     app_description: Come fa in altre lingue?
@@ -257,6 +260,7 @@ t:
     footer_feedback: Commentaire
     footer_privacy: Termini di Servizio (English) 
     footer_contact: Contattaci
+    home: Home
   ja:
     app_headline: 日本語では、カエルの鳴き声は「ゲロゲロ」です...
     app_description: 他の言語ではどのように言いますか？
@@ -284,6 +288,7 @@ t:
     footer_feedback: フィードバック
     footer_privacy:  プライバシーポリシー (英語)
     footer_contact: お問い合わせ
+    home: ホーム
   ko:
     app_headline: 한국말로 개구리는 "개굴개굴"하고 웁니다...
     app_description: 다른 언어로는 어떻게 우나요?
@@ -311,6 +316,7 @@ t:
     footer_feedback: 피드백
     footer_privacy:  개인 정보 보호 정책 (영어)
     footer_contact: 연락처
+    home: 홈
   nb:
     app_headline: På norsk sier frosken "kvæk"...
     app_description: Hva sier den på andre språk?
@@ -338,6 +344,7 @@ t:
     footer_feedback: Tilbakemelding
     footer_privacy:  Personvernvilkår (Engelske språk)
     footer_contact: Kontakt oss
+    home: Hjem
   ru:
     app_headline: На русском лягушка говорит "ква ква"...
     app_description: Что она говорит на других языках?
@@ -365,6 +372,7 @@ t:
     footer_feedback: Отзыв
     footer_privacy:  Политика конфиденциальности ( английский ) 
     footer_contact: Связаться с нами
+    home: На главную
   sv:
     app_headline: På svensk sier frosken "kvack"...
     app_description: Hva sier den på andre språk?
@@ -392,6 +400,7 @@ t:
     footer_feedback: Återkoppling
     footer_privacy:  Personvernvilkår (Engelska språket)
     footer_contact: Kontakta oss
+    home: Hem
   zh:
     app_headline: 一只青蛙的叫声是“呱呱”...
     app_description: 在其他语言中说什么？
@@ -419,6 +428,7 @@ t:
     footer_feedback: 反馈
     footer_privacy:  隐私政策 (英语)
     footer_contact: 联系
+    home: 主页
 
 
 ####################################################
