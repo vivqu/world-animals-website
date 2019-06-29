@@ -83,13 +83,13 @@ languages                                 :
     localized: 한국어
     url: /ko/
   - title: Norwegian
-    localized: Norsk språk
+    localized: Norsk
     url: /nb/
   - title: Russian
     localized: русский
     url: /ru/
   - title: Swedish
-    localized: Svenska språket
+    localized: Svensk
     url: /sv/
 
 
