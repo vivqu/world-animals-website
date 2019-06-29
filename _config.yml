@@ -329,20 +329,20 @@ t:
     illustration_title: Tilpassede illustrasjoner
     illustration_description: Inkluderer 15 forskjellige dyr som har typiske hatter fra forskjellige land. Trykk på dyret og flagg-ikonene for å se dyrene som snakker!
     languages_title: Språkalternativer
-    english: Engelske språk
-    japanese: Japansk språk
-    german: Tysk språk
-    french: Fransk språk
-    chinese: Kinesisk språk
-    italian: Italiensk språk
-    korean: Koreansk språk
-    norwegian: Norsk språk
-    swedish: Svensk språk
-    spanish: Spansk språk
-    russian: Russisk språk
+    english: Engelsk
+    japanese: Japansk
+    german: Tysk
+    french: Fransk
+    chinese: Kinesisk
+    italian: Italiensk
+    korean: Koreansk
+    norwegian: Norsk
+    swedish: Svensk
+    spanish: Spansk
+    russian: Russisk
     footer_promo: Start språklæring nå!
     footer_feedback: Tilbakemelding
-    footer_privacy:  Personvernvilkår (Engelske språk)
+    footer_privacy:  Personvernvilkår (Engelsk)
     footer_contact: Kontakt oss
     home: Hjem
   ru:
@@ -385,20 +385,20 @@ t:
     illustration_title: Unika illustrationer
     illustration_description: Inkluderar 15 olika djur med klassiska hattar från olika länder. Klicka på djuret och flaggikonerna för att se djuren som kommer att prata!
     languages_title: Stöttade språk
-    english: Engelska språket
-    japanese: Japanska språket
-    german: Tyska språket
-    french: Franska språket
-    chinese: Kinesiskt språk
-    italian: Italienska språket
-    korean: Koreanska språket
-    norwegian: Norska språket
-    swedish: Svenska språket
-    spanish: Spanska språket
-    russian: Ryska språket,
+    english: Engelsk
+    japanese: Japansk
+    german: Tysk
+    french: Fransk
+    chinese: Kinesisk
+    italian: Italiensk
+    korean: Koreansk
+    norwegian: Norsk
+    swedish: Svensk
+    spanish: Spansk
+    russian: Rysk
     footer_promo: Börja lära dig språk nu!
     footer_feedback: Återkoppling
-    footer_privacy:  Personvernvilkår (Engelska språket)
+    footer_privacy:  Personvernvilkår (Engelsk)
     footer_contact: Kontakta oss
     home: Hem
   zh:
