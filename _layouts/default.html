@@ -34,7 +34,7 @@
                         </p>
                     </div>
                     <div class="downloadButtonsContainer">
-                        <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore"
+                        <a class="appStoreLink" href="{{page.app_store_link}}" target="_blank"><img class="appStore"
                                 src="/assets/localized-img/appstore-{{ page.lang }}.png"></a>
                         {% if site.playstore_link %}
                         <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore"
@@ -49,7 +49,6 @@
             <div class="container container-bottom">
                 {% include languages.html %}
                 {% include footer.html %}
-                {% include appstoreimages.html %}
             </div>
         </div>
     </div>
